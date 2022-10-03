@@ -6,33 +6,46 @@
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Blue" Height="350" Width="350">
+    <Grid Background="Blue" Height="350" Width="300">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBox x:Name="rezult" Grid.Column="0" Grid.ColumnSpan="5" Background="Aqua" Margin="5"></TextBox>
-        <Button Grid.Column="0" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_1">1</Button>
-        <Button Grid.Column="1" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_2">2</Button>
-        <Button Grid.Column="2" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_3">3</Button>
-        <Button Grid.Column="3" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_4">4</Button>
+        <TextBox x:Name="rezult" Grid.Column="0" Grid.ColumnSpan="6" Background="Aqua" Margin="0,4,0,4"></TextBox>
+        <Button Grid.Column="0" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_1">7</Button>
+        <Button Grid.Column="1" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_2">8</Button>
+        <Button Grid.Column="2" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_3">9</Button>
 
-        <Button Grid.Column="0" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_5">5</Button>
-        <Button Grid.Column="1" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_6">6</Button>
-        <Button Grid.Column="2" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_7">7</Button>
-        <Button Grid.Column="3" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_8">8</Button>
 
-        <Button Grid.Column="0" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_9">9</Button>
-        <Button Grid.Column="1" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_10">0</Button>
-        <Button Grid.Column="2" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_11">00</Button>
-        <Button Grid.Column="3" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_12">.</Button>
+        <Button Grid.Column="0" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_5">4</Button>
+        <Button Grid.Column="1" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_6">5</Button>
+        <Button Grid.Column="2" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_7">6</Button>
+
+        <Button Grid.Column="0" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_9">1</Button>
+        <Button Grid.Column="1" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_10">2</Button>
+        <Button Grid.Column="2" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_11">3</Button>
+
+        <Button Grid.Column="0" Grid.Row="4" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_12">0</Button>
+        <Button Grid.Column="1" Grid.Row="4" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_13">00</Button>
+        <Button Grid.Column="2" Grid.Row="4" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_14">.</Button>
+
+        <Button Grid.Column="3" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_15">%</Button>
+        <Button Grid.Column="3" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_16">*</Button>
+        <Button Grid.Column="3" Grid.Row="3" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_17">+</Button>
+        <Button Grid.Column="3" Grid.Row="4" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_18">-</Button>
+
+        <Button Grid.Column="5" Grid.Row="1" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_19">x^2</Button>
+        <Button Grid.Column="4" Grid.Row="2" Background="White" FontSize="30" Click="Button_Click_1" x:Name="btn_20" Grid.RowSpan="3">=</Button>
     </Grid>
 </Window>
